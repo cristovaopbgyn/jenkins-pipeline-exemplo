@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Fazendo a build do projeto'
+                echo 'Fazendo a build do projeto texto alterado'
             }
         }
         stage('Unit Tests') {
