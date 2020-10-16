@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Unit Tests') {
             steps {
-                echo 'Fazer testes unitários'
+                echo 'Fazer testes unitários segundo texto alterado'
             }
         }
         stage('Deploy to Stage') {
